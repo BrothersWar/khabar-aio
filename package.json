@@ -1,0 +1,31 @@
+{
+  "name": "khabar-aio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "build": {
+    "asar": false
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.5"
+  },
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "discord-webhook-node": "^1.0.7",
+    "electron-packager": "^15.0.0",
+    "fetch-retry": "^4.0.1",
+    "jsdom": "^16.2.2",
+    "node-fetch": "^2.6.0",
+    "proxy-agent": "^3.1.1",
+    "python-shell": "^2.0.1",
+    "remote": "^0.2.6",
+    "utf8": "^3.0.0"
+  }
+}

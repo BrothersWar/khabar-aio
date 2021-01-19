@@ -1,0 +1,14 @@
+{
+    "alex": {
+        "firstName": "Александр",
+        "lastName": "Пращикин",
+        "address1": "address1",
+        "postalCode": "postalCode",
+        "telephone": "+7 903 662 04 64",
+        "idNumber": "idNumber",
+        "issuingAuthority": "issuingAuthority",
+        "issueDate": "issueDate",
+        "middleName": "Владимирович",
+        "vatNumber": "vatNumber"
+    }
+}

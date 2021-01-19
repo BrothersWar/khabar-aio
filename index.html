@@ -1,0 +1,70 @@
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="bot.js"></script>
+<meta charset="UTF-8">
+
+<div class="container">
+  <div class="heading">
+    <h1><span class="shopper">s</span> Khabar AIO</h1>
+
+    <a href="#" class="visibility-cart transition is-open">X</a>
+  </div>
+
+  <div class="cart transition is-open">
+    <div id="tab" class="table">
+      <div class="layout-inline row th">
+        <div class="col col-pro">Product</div>
+        <div class="col col-size align-center">
+          Size
+        </div>
+        <div class="col">profile</div>
+        <div class="col col-proxy">proxy</div>
+        <div class="col col-status">STATUS</div>
+        <div class="col col-qty align-center">TASK</div>
+      </div>
+
+      <div id="elem1" class="layout-inline row">
+        <div class="col col-pro layout-inline">
+          <p>Supreme Box Logo</p>
+        </div>
+
+        <div class="col col-size col-numeric align-center">
+          <p>random</p>
+        </div>
+
+        <div class="col col-profile col-numeric">
+          <p>nastya1</p>
+        </div>
+
+        <div class="col col-proxy col-numeric">
+          <p>proxy228</p>
+        </div>
+
+        <div class="col col-status col-numeric">
+          <p>none</p>
+        </div>
+
+        <div class="col col-qty layout-inline">
+          <a href="#" class="qty qty-start">start</a>
+          <a href="#" class="qty qty-stop">stop</a>
+          <a href="#" class="qty qty-delete">delete</a>
+        </div>
+      </div>
+    </div>
+
+    <select id="profiles" class="select-css">
+      <option>Choose your profile</option>
+    </select>
+    <select id="proxy" class="select-css">
+      <option>Choose proxy</option>
+    </select>
+    <a href="#" class="btn btn-create"
+      onclick="createTask(document.getElementById('url').value, document.getElementById('profiles').options[ document.getElementById('profiles').selectedIndex ].text, document.getElementById('proxy').options[ document.getElementById('proxy').selectedIndex ].text)">Create
+      Task</a>
+    <a href="#" class="btn btn-startAll" onclick="startAllTasks()">Start all tasks</a>
+    <a href="#" class="btn btn-stopAll" onclick="stopAllTasks()">Stop all tasks</a>
+    <p>Product URL:</p>
+    <input id="url" type="text" size="70" />
+    <a href="#" class="btn btn-size" onclick="getSizesNike(document.getElementById('url').value)">Get product sizes
+      (Nike Ru)</a>
+  </div>
+</div>
