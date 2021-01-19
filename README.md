@@ -1,14 +1,12 @@
 # tinkoff-start-example
 
-## Angular Spotify Api Music Quiz
-
 ## About
 
-This app was created as TFS-FRONTEND school final project. This app uses Spotify Api to get track URL's and related artists.
+Этот репозиторий создан для показа самого сложного проекта, который я реализовывал.
 
-## Gameplay
+## Суть проекта
 
-You have 10 seconds select the artist of the track being played. You can surrender when you want and you will be able to pass your result to score table.
+Проект создавался с целью автомотизировать действия для покупки лимитированных кроссовок. Это достигалось путем создания десятков уникальных тасков (грубо говоря 1 таск - 1 человек, покупающий кроссовки) и выполнением серии запросов в каждом из тасков.
 
 ## Quickstart
 
@@ -30,11 +28,7 @@ $ node app.js
 
 # Live Example
 
-See this project in action:
-
-[http://afisha10sec.herokuapp.com/](http://afisha10sec.herokuapp.com/)
-
-![](https://i.ibb.co/F0dhnXx/collage.png)
+![](https://ibb.co/yhR29Vy)
 
 
 # Credits
