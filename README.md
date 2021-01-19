@@ -28,7 +28,7 @@ $ node app.js
 
 # Live Example
 
-![](https://ibb.co/yhR29Vy)
+![](https://i.ibb.co/cbvqBxF/bot-wind.png)
 
 
 # Credits
