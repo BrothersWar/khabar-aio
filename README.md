@@ -1,4 +1,4 @@
-# tinkoff-start-example-2021
+# Khabar-AIO
 
 ## Информация
 
